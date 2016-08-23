@@ -39,7 +39,6 @@ use yii\widgets\ActiveForm;
 
             <div class="form-group">
                 <?php echo $form->field($model, 'message', ['inputOptions' => ['class' => 'form-control', 'id' => 'newMessageText']])->textarea(); ?>
-                <?php echo \humhub\widgets\MarkdownEditor::widget(array('fieldId' => 'newMessageText')); ?>
             </div>
 
         </div>
