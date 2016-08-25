@@ -109,7 +109,6 @@ use humhub\compat\CActiveForm;
                 <?php echo $form->errorSummary($replyForm); ?>
                 <div class="form-group">
                     <?php echo $form->textArea($replyForm, 'message', array('class' => 'form-control', 'id' => 'newMessage', 'rows' => '4', 'placeholder' => Yii::t('MailModule.views_mail_show', 'Write an answer...'))); ?>
-                    <?php echo humhub\widgets\MarkdownEditor::widget(array('fieldId' => 'newMessage')); ?>
                 </div>
                 <hr>
 
