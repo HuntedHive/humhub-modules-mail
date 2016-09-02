@@ -28,4 +28,5 @@
 
 textarea#newMessageText {
     height: 110px;
+    resize: vertical;
 }
